@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <widget xmlns = "http://www.w3.org/ns/widgets"
+   xmlns:gap = "http://phonegap.com/ns/1.0"
+   id     = "com.phonegap.example6"
+   versionCode = "10"
+   version ="1.0.0">
+   
+ <!--versioncode is optional and Android only -->
+ 
+ <name>Beppea y vibrar</name>
+ 
+ <description>
+    Aplicacion que muestra beepeo y vibracion</description>
+ 
+ <preference name="phonegap-version" value="3.1.0"/>
+  
+ <author href="https://build.phonegap.com" email ="support@phonegap.com">
+ Blanca Estela Perea Escamilla</author>
+ 
+ <gap:plugin name ="org.apache.cordova.device" version="0.2.12"/>
+ <gap:plugin name="org.apache.cordova.vibration" version="0.3.0"/>
+ <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6"/>
+ 
+ 
+ <!--colocar icono app -->
+ 
+  <icon src ="res/android/mdpi.png"/>
+ </widget>	
